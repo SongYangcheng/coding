@@ -1,4 +1,5 @@
-# nums  = map(int, input().split(','))
-# a, b = [1, 10]
-# print(a, b)
-# print(nums)
+def function(key):
+    if isinstance(key, str):
+        return (key, None)
+    
+print(function("1"))
