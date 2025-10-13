@@ -1,0 +1,511 @@
+﻿订单编号,用户编号,下单日期,城市,品类,单价,数量,折扣比例,运费,支付方式,订单状态
+O100480,U0027,2024-09-17,Guangzhou,Electronics,736.1,3,0.1,12.0,WeChat,paid
+O100449,U0093,2024-02-05,Guangzhou,Clothes,197.2,3,0.0,10.0,CreditCard,paid
+O100475,U0032,2024-05-18,Guangzhou,Home,781.9,1,0.05,10.0,WeChat,paid
+O100434,U0035,2024-08-13,beijing,Electronics,604.08,2,0.0,12.0,WeChat,paid
+O100368,U0075,2024-03-13,shenzhen ,Electronics,428.2,1,0.1,10.0,CreditCard,paid
+O100055,U0051,2024-09-28,Guangzhou,Clothes,49.97,1,0.0,6.0,Alipay,paid
+O100322,U0105,2024-06-14,beijing,Clothes,572.11,1,0.0,6.0,WeChat,paid
+O100076,U0008,2024-01-23,beijing,Home,595.26,2,0.15,,CreditCard,closed
+O100362,U0024,2024-08-20,beijing,Electronics,532.29,2,0.0,10.0,WeChat,paid
+O100347,U0001,2024-07-02,beijing,Clothes,179.81,1,0.0,10.0,WeChat,paid
+O100415,U0109,2024-07-30,chengdu,Clothes,658.87,1,0.0,0.0,Alipay,closed
+O100220,U0062,2024-07-21,beijing,Electronics,423.47,1,0.0,10.0,Alipay,closed
+O100117,U0089,2024-03-15,beijing,Home,362.74,1,0.15,10.0,WeChat,paid
+O100249,U0118,2024-08-15,beijing,Electronics,253.01,1,0.0,10.0,Alipay,paid
+O100173,U0119,2024-01-09,beijing,Clothes,297.2,2,0.0,0.0,WeChat,paid
+O100093,U0018,2024-06-26,beijing,Electronics,507.24,1,0.0,10.0,WeChat,paid
+O100325,U0039,2024-04-15,chengdu,Home,377.47,1,0.0,10.0,CreditCard,closed
+O100275,U0087,2024-06-25,beijing,Clothes,224.13,3,0.05,6.0,WeChat,paid
+O100342,U0112,2024-09-05,beijing,Electronics,221.72,1,,10.0,CreditCard,paid
+O100070,U0084,2024-07-22,chengdu,Electronics,86.14,1,0.05,0.0,WeChat,paid
+O100343,U0116,2024-06-02,  Shanghai,Clothes,148.47,3,0.0,12.0,WeChat,paid
+O100009,U0083,2024-02-20,  Shanghai,Clothes,121.95,2,0.15,6.0,Alipay,paid
+O100250,U0032,2024-07-10,  Shanghai,Clothes,753.73,3,0.0,10.0,CreditCard,paid
+O100408,U0086,2024-09-29,  Shanghai,Clothes,431.37,1,0.0,6.0,WeChat,refund
+O100423,U0030,2024-08-15,chengdu,Clothes,405.49,1,0.1,10.0,WeChat,refund
+O100451,U0046,2024-01-06,Guangzhou,Electronics,237.84,1,0.05,0.0,WeChat,paid
+O100172,U0090,2024-03-16,chengdu,Electronics,166.66,1,0.0,10.0,WeChat,paid
+O100030,U0033,2024-02-16,Guangzhou,Electronics,645.2,2,0.0,0.0,Alipay,paid
+O100448,U0024,2024-08-16,  Shanghai,Home,687.48,1,0.0,0.0,WeChat,paid
+O100090,U0054,2024-09-14,shenzhen ,Clothes,774.93,1,0.1,10.0,WeChat,paid
+O100381,U0018,2024-04-22,  Shanghai,Electronics,688.6,1,0.1,10.0,CreditCard,paid
+O100131,U0008,2024-02-06,beijing,Home,608.93,4,0.0,10.0,Alipay,paid
+O100364,U0120,2024-02-15,  Shanghai,Clothes,316.73,2,0.0,0.0,Alipay,paid
+O100073,U0060,2024-04-09,Guangzhou,Clothes,75.58,1,,6.0,Alipay,paid
+O100210,U0062,2024-04-26,  Shanghai,Electronics,647.89,1,0.0,6.0,WeChat,paid
+O100329,U0011,2024-05-17,,Electronics,682.98,1,0.05,0.0,WeChat,paid
+O100369,U0113,2024-09-05,  Shanghai,Clothes,243.97,1,0.0,6.0,Alipay,paid
+O100101,U0095,2024-02-12,  Shanghai,Electronics,52.72,3,0.1,10.0,WeChat,paid
+O100218,U0084,2024-03-20,chengdu,Electronics,571.99,3,0.1,,Alipay,paid
+O100154,U0023,2024-02-22,  Shanghai,Clothes,460.72,2,0.0,10.0,Alipay,paid
+O100225,U0103,2024-05-26,Guangzhou,Clothes,89.11,1,0.1,6.0,Alipay,paid
+O100399,U0008,2024-08-26,Guangzhou,Electronics,787.61,1,0.1,0.0,WeChat,closed
+O100063,U0060,2024-03-26,shenzhen ,Electronics,71.99,1,,12.0,Alipay,paid
+O100002,U0093,2024-06-21,Guangzhou,Electronics,797.42,2,0.0,6.0,Alipay,paid
+O100441,U0093,2024-04-04,chengdu,Electronics,514.63,1,0.15,10.0,Alipay,paid
+O100340,U0016,2024-08-27,Guangzhou,Electronics,633.3,1,0.0,10.0,Alipay,refund
+O100082,U0050,2024-08-10,chengdu,Home,164.45,2,0.0,0.0,Alipay,paid
+O100284,U0090,2024-02-22,shenzhen ,Clothes,400.31,3,0.0,0.0,Alipay,closed
+O100209,U0045,2024-07-09,beijing,Electronics,547.64,5,0.1,10.0,Alipay,paid
+O100471,U0104,2024-01-01,,Electronics,379.08,2,0.15,,Alipay,paid
+O100181,U0042,2024-06-18,chengdu,Home,767.3,1,,12.0,WeChat,closed
+O100077,U0047,2024-09-06,shenzhen ,Electronics,295.54,1,0.15,10.0,WeChat,paid
+O100296,U0069,2024-02-03,  Shanghai,Home,456.93,1,0.0,6.0,Alipay,paid
+O100452,U0053,2024-08-07,beijing,Electronics,521.45,1,0.15,6.0,WeChat,closed
+O100495,U0026,2024-05-16,,Electronics,568.88,3,0.0,6.0,Alipay,paid
+O100425,U0028,2024-02-03,Guangzhou,Electronics,281.46,1,0.05,10.0,Alipay,paid
+O100033,U0022,2024-05-03,chengdu,Electronics,105.59,1,0.1,6.0,Alipay,paid
+O100079,U0078,2024-09-02,shenzhen ,Clothes,292.77,4,0.0,0.0,Alipay,paid
+O100417,U0054,2024-03-08,Guangzhou,Clothes,573.99,2,0.05,6.0,Alipay,refund
+O100167,U0047,2024-08-02,chengdu,Electronics,644.06,1,0.1,12.0,WeChat,paid
+O100068,U0053,2024-04-03,Guangzhou,Clothes,550.58,1,0.0,6.0,WeChat,refund
+O100000,U0103,2024-01-13,chengdu,Clothes,68.59,1,0.0,12.0,CreditCard,paid
+O100084,U0004,2024-05-26,beijing,Home,96.75,1,0.1,6.0,Alipay,paid
+O100011,U0075,2024-07-04,  Shanghai,Home,370.83,3,,0.0,WeChat,paid
+O100229,U0027,2024-01-14,shenzhen ,Electronics,798.71,2,0.15,12.0,Alipay,refund
+O100022,U0088,2024-09-20,shenzhen ,Electronics,222.65,3,0.0,6.0,Alipay,paid
+O100323,U0033,2024-01-30,chengdu,Electronics,443.96,1,0.0,6.0,CreditCard,paid
+O100078,U0035,2024-01-10,Guangzhou,Clothes,251.3,1,,6.0,CreditCard,paid
+O100247,U0079,2024-08-07,Guangzhou,Home,233.0,4,0.1,10.0,Alipay,paid
+O100072,U0111,2024-02-08,shenzhen ,Electronics,76.23,1,0.05,0.0,Alipay,paid
+O100474,U0114,2024-02-07,beijing,Clothes,316.71,2,0.0,6.0,WeChat,closed
+O100335,U0031,2024-02-22,chengdu,Electronics,68.57,2,0.0,6.0,Alipay,paid
+O100018,U0003,2024-06-18,shenzhen ,Home,28.6,5,0.0,10.0,Alipay,paid
+O100280,U0019,2024-07-15,Guangzhou,Electronics,612.33,1,0.1,10.0,Alipay,paid
+O100124,U0065,2024-04-08,shenzhen ,Electronics,523.73,1,0.0,0.0,Alipay,paid
+O100442,U0046,2024-05-31,shenzhen ,Home,118.49,2,0.0,0.0,Alipay,paid
+O100248,U0059,2024-02-10,  Shanghai,Electronics,424.1,2,0.1,10.0,WeChat,paid
+O100039,U0042,2024-04-01,beijing,Electronics,137.04,2,0.0,10.0,WeChat,paid
+O100460,U0032,2024-07-21,chengdu,Home,751.88,1,0.0,10.0,WeChat,paid
+O100046,U0047,2024-05-01,chengdu,Home,632.31,1,0.0,0.0,CreditCard,closed
+O100301,U0011,2024-09-06,chengdu,Electronics,590.04,1,0.15,,Alipay,paid
+O100195,U0109,2024-03-31,chengdu,Electronics,562.58,1,0.0,10.0,CreditCard,paid
+O100358,U0048,2024-06-18,chengdu,Clothes,729.19,1,0.05,12.0,WeChat,paid
+O100104,U0072,2024-04-04,shenzhen ,Clothes,248.4,1,0.0,10.0,Alipay,paid
+O100281,U0002,2024-05-12,Guangzhou,Clothes,370.8,3,0.15,,Alipay,paid
+O100148,U0072,2024-08-10,shenzhen ,Clothes,675.75,1,0.0,10.0,WeChat,paid
+O100155,U0062,2024-05-30,  Shanghai,Electronics,557.33,3,0.0,6.0,WeChat,paid
+O100446,U0105,2024-01-31,,Home,74.32,1,0.0,0.0,CreditCard,refund
+O100182,U0077,2024-05-01,  Shanghai,Home,306.99,1,0.0,,Alipay,paid
+O100069,U0002,2024-08-25,beijing,Home,52.5,1,0.0,,Alipay,paid
+O100244,U0106,2024-07-04,shenzhen ,Clothes,40.43,1,0.0,0.0,Alipay,refund
+O100298,U0098,2024-03-12,,Electronics,60.76,1,0.0,0.0,WeChat,paid
+O100412,U0030,2024-01-25,shenzhen ,Electronics,590.57,2,0.1,0.0,Alipay,paid
+O100210,U0062,2024-04-26,  Shanghai,Electronics,647.89,1,0.0,6.0,WeChat,paid
+O100302,U0112,2024-06-10,chengdu,Electronics,785.41,4,0.05,10.0,Alipay,refund
+O100493,U0042,2024-03-09,Guangzhou,Home,700.75,3,0.1,6.0,WeChat,paid
+O100180,U0090,2024-06-16,chengdu,Clothes,177.93,2,0.0,10.0,WeChat,paid
+O100374,U0084,2024-02-25,  Shanghai,Home,328.86,1,0.0,10.0,Alipay,paid
+O100132,U0088,2024-09-24,shenzhen ,Electronics,379.22,1,0.0,6.0,WeChat,paid
+O100341,U0090,2024-04-20,  Shanghai,Clothes,177.06,1,0.0,10.0,Alipay,paid
+O100437,U0017,2024-07-16,  Shanghai,Home,294.85,1,0.0,0.0,WeChat,paid
+O100176,U0027,2024-08-17,beijing,Electronics,24.08,1,0.1,0.0,Alipay,paid
+O100310,U0003,2024-04-21,Guangzhou,Electronics,292.61,3,0.0,0.0,CreditCard,paid
+O100349,U0012,2024-07-13,,Electronics,706.07,1,0.05,12.0,WeChat,paid
+O100485,U0104,2024-05-09,shenzhen ,Electronics,608.09,2,0.0,0.0,Alipay,paid
+O100137,U0008,2024-03-02,shenzhen ,Clothes,158.39,1,,10.0,Alipay,paid
+O100497,U0050,2024-02-04,shenzhen ,Electronics,95.3,2,0.0,12.0,CreditCard,paid
+O100271,U0002,2024-06-25,chengdu,Clothes,766.16,2,0.0,12.0,Alipay,paid
+O100440,U0030,2024-01-04,chengdu,Home,783.7,1,0.0,6.0,Alipay,paid
+O100353,U0119,2024-03-01,  Shanghai,Clothes,788.29,1,0.0,10.0,WeChat,closed
+O100086,U0006,2024-09-13,chengdu,Home,616.21,3,0.05,10.0,WeChat,closed
+O100075,U0044,2024-08-09,Guangzhou,Electronics,766.07,3,0.1,6.0,Alipay,paid
+O100447,U0037,2024-02-09,Guangzhou,Home,156.41,2,0.0,10.0,Alipay,paid
+O100015,U0100,2024-05-29,shenzhen ,Home,665.48,2,0.0,6.0,CreditCard,paid
+O100203,U0059,2024-08-07,Guangzhou,Clothes,521.01,1,0.1,12.0,WeChat,paid
+O100274,U0054,2024-08-04,shenzhen ,Home,240.11,1,0.15,10.0,Alipay,paid
+O100393,U0033,2024-01-14,  Shanghai,Clothes,85.1,3,0.0,10.0,Alipay,paid
+O100019,U0022,2024-09-27,  Shanghai,Clothes,344.6,3,0.05,10.0,Alipay,paid
+O100453,U0095,2024-03-15,Guangzhou,Electronics,561.44,1,0.1,10.0,Alipay,paid
+O100338,U0099,2024-08-22,shenzhen ,Electronics,378.21,1,0.05,6.0,Alipay,paid
+O100056,U0007,2024-07-07,shenzhen ,Clothes,723.37,1,0.1,0.0,Alipay,paid
+O100333,U0050,2024-02-03,shenzhen ,Home,527.76,1,0.0,0.0,CreditCard,closed
+O100497,U0050,2024-02-04,shenzhen ,Electronics,95.3,2,0.0,12.0,CreditCard,paid
+O100238,U0027,2024-06-04,  Shanghai,Clothes,319.39,2,,10.0,WeChat,paid
+O100405,U0076,2024-01-28,Guangzhou,Clothes,146.54,2,0.1,10.0,Alipay,paid
+O100307,U0070,2024-08-23,  Shanghai,Clothes,381.87,1,0.1,6.0,Alipay,paid
+O100468,U0054,2024-04-22,Guangzhou,Electronics,457.14,1,0.0,0.0,WeChat,paid
+O100431,U0048,2024-04-10,beijing,Clothes,130.74,3,0.15,6.0,WeChat,paid
+O100489,U0118,2024-09-21,Guangzhou,Electronics,586.8,1,0.0,,WeChat,paid
+O100025,U0038,2024-04-17,beijing,Clothes,437.54,1,0.0,6.0,CreditCard,paid
+O100365,U0033,2024-02-03,chengdu,Clothes,624.98,3,0.0,,WeChat,paid
+O100042,U0080,2024-04-26,chengdu,Clothes,391.29,2,0.0,10.0,Alipay,paid
+O100140,U0033,2024-07-05,shenzhen ,Electronics,751.16,1,0.05,10.0,Alipay,paid
+O100418,U0008,2024-03-07,shenzhen ,Clothes,265.19,2,0.0,6.0,WeChat,paid
+O100316,U0067,2024-04-12,Guangzhou,Electronics,457.75,2,,10.0,Alipay,paid
+O100126,U0071,2024-04-05,Guangzhou,Clothes,656.44,4,0.0,6.0,Alipay,paid
+O100332,U0089,2024-03-09,shenzhen ,Electronics,341.18,1,0.0,6.0,Alipay,paid
+O100031,U0076,2024-05-23,Guangzhou,Electronics,768.47,1,0.0,10.0,Alipay,closed
+O100113,U0111,2024-04-24,shenzhen ,Electronics,743.91,1,0.1,10.0,CreditCard,paid
+O100153,U0119,2024-01-25,beijing,Electronics,252.09,1,0.05,0.0,WeChat,paid
+O100211,U0057,2024-05-13,beijing,Electronics,230.46,1,0.1,0.0,Alipay,paid
+O100422,U0021,2024-04-20,Guangzhou,Home,299.08,1,0.05,6.0,Alipay,paid
+O100057,U0021,2024-07-10,  Shanghai,Clothes,379.95,1,,12.0,Alipay,paid
+O100266,U0113,2024-04-28,Guangzhou,Electronics,143.95,1,0.1,10.0,Alipay,paid
+O100024,U0030,2024-02-29,Guangzhou,Clothes,126.95,1,0.05,10.0,CreditCard,closed
+O100017,U0024,2024-06-28,Guangzhou,Clothes,620.06,2,0.0,6.0,WeChat,paid
+O100185,U0096,2024-01-29,shenzhen ,Electronics,258.37,2,0.0,6.0,Alipay,paid
+O100066,U0009,2024-03-09,shenzhen ,Electronics,595.2,1,,12.0,Alipay,paid
+O100402,U0017,2024-01-15,shenzhen ,Clothes,149.44,2,0.0,12.0,CreditCard,paid
+O100396,U0048,2024-01-03,,Electronics,414.06,3,0.0,0.0,WeChat,paid
+O100094,U0090,2024-06-11,  Shanghai,Electronics,317.91,1,0.0,10.0,WeChat,paid
+O100496,U0099,2024-03-16,beijing,Electronics,441.74,2,0.0,10.0,WeChat,paid
+O100354,U0009,2024-05-01,chengdu,Clothes,622.17,2,0.15,6.0,Alipay,paid
+O100023,U0108,2024-02-22,chengdu,Home,613.03,2,0.1,12.0,Alipay,paid
+O100231,U0116,2024-01-01,shenzhen ,Clothes,521.2,99,0.1,6.0,CreditCard,paid
+O100265,U0101,2024-01-05,Guangzhou,Electronics,617.1,1,0.0,0.0,Alipay,paid
+O100208,U0042,2024-07-08,shenzhen ,Clothes,490.72,1,0.0,6.0,Alipay,closed
+O100005,U0072,2024-05-21,beijing,Home,258.88,2,0.1,6.0,Alipay,paid
+O100116,U0026,2024-04-23,Guangzhou,Clothes,357.02,1,0.1,10.0,Alipay,paid
+O100045,U0062,2024-02-27,beijing,Clothes,378.37,1,0.0,6.0,WeChat,paid
+O100394,U0014,2024-07-05,beijing,Clothes,708.28,1,0.0,0.0,WeChat,refund
+O100016,U0104,2024-02-27,  Shanghai,Clothes,592.22,1,0.0,6.0,WeChat,paid
+O100472,U0046,2024-03-30,,Electronics,694.36,1,0.15,10.0,Alipay,paid
+O100461,U0087,2024-01-26,Guangzhou,Home,699.54,1,0.0,12.0,Alipay,paid
+O100003,U0015,2024-01-20,  Shanghai,Home,654.9,1,0.0,0.0,Alipay,paid
+O100227,U0097,2024-02-16,beijing,Home,486.62,2,0.1,10.0,CreditCard,paid
+O100482,U0002,2024-06-20,shenzhen ,Electronics,689.51,1,0.1,6.0,WeChat,paid
+O100060,U0018,2024-03-16,chengdu,Clothes,718.19,1,0.0,0.0,Alipay,paid
+O100110,U0080,2024-09-20,shenzhen ,Clothes,532.05,1,0.15,10.0,Alipay,paid
+O100324,U0040,2024-09-03,beijing,Clothes,83.75,1,0.0,10.0,Alipay,paid
+O100297,U0116,2024-04-04,chengdu,Electronics,750.72,1,0.05,6.0,WeChat,refund
+O100029,U0021,2024-09-18,beijing,Clothes,781.18,3,0.15,6.0,Alipay,paid
+O100192,U0101,2024-09-08,chengdu,Electronics,482.57,1,0.1,10.0,Alipay,paid
+O100464,U0018,2024-04-27,Guangzhou,Clothes,538.69,1,0.1,0.0,WeChat,closed
+O100026,U0002,2024-01-05,chengdu,Clothes,187.86,4,0.05,0.0,CreditCard,paid
+O100007,U0021,2024-04-01,Guangzhou,Electronics,431.09,4,0.0,0.0,Alipay,paid
+O100462,U0033,2024-06-21,beijing,Clothes,-617.53,1,0.0,6.0,WeChat,paid
+O100108,U0040,2024-08-02,beijing,Home,603.5,2,0.0,0.0,Alipay,paid
+O100037,U0091,2024-05-24,  Shanghai,Electronics,96.5,3,0.05,6.0,WeChat,paid
+O100157,U0037,2024-02-26,beijing,Home,516.31,4,0.0,0.0,CreditCard,paid
+O100476,U0047,2024-09-15,beijing,Electronics,106.36,5,0.0,10.0,Alipay,paid
+O100118,U0060,2024-08-04,,Clothes,498.09,1,,0.0,Alipay,paid
+O100114,U0053,2024-04-14,Guangzhou,Electronics,195.2,1,0.0,10.0,WeChat,paid
+O100175,U0103,2024-09-09,  Shanghai,Electronics,452.3,1,0.0,0.0,Alipay,paid
+O100194,U0103,2024-06-15,beijing,Home,341.85,1,0.0,0.0,WeChat,paid
+O100318,U0020,2024-09-08,Guangzhou,Electronics,109.52,2,0.0,6.0,WeChat,paid
+O100144,U0041,2024-08-20,chengdu,Electronics,586.26,2,0.0,10.0,Alipay,paid
+O100376,U0112,2024-02-17,,Electronics,435.76,1,0.1,10.0,Alipay,paid
+O100429,U0069,2024-03-23,Guangzhou,Electronics,98.5,2,0.0,0.0,Alipay,paid
+O100204,U0115,2024-05-05,  Shanghai,Home,70.59,3,0.0,10.0,Alipay,paid
+O100321,U0052,2024-09-05,  Shanghai,Home,72.78,1,0.0,0.0,Alipay,paid
+O100362,U0024,2024-08-20,beijing,Electronics,532.29,2,0.0,10.0,WeChat,paid
+O100454,U0099,2024-01-04,shenzhen ,Clothes,419.87,1,0.05,6.0,Alipay,paid
+O100141,U0005,2024-01-19,beijing,Clothes,53.68,1,0.0,6.0,Alipay,paid
+O100494,U0119,2024-08-23,  Shanghai,Electronics,107.81,1,0.1,6.0,Alipay,closed
+O100067,U0090,2024-02-16,shenzhen ,Clothes,419.53,1,0.05,6.0,WeChat,paid
+O100261,U0039,2024-07-15,Guangzhou,Electronics,587.79,1,0.0,6.0,Alipay,paid
+O100168,U0078,2024-08-08,  Shanghai,Clothes,179.15,1,0.05,6.0,Alipay,paid
+O100400,U0007,2024-09-30,shenzhen ,Clothes,540.98,5,0.05,6.0,WeChat,paid
+O100383,U0082,2024-06-28,Guangzhou,Electronics,235.99,2,0.05,12.0,CreditCard,closed
+O100245,U0044,2024-06-26,Guangzhou,Clothes,38.87,1,0.0,0.0,CreditCard,refund
+O100193,U0023,2024-06-30,Guangzhou,Clothes,325.39,1,0.0,0.0,WeChat,paid
+O100255,U0113,2024-08-27,  Shanghai,Home,165.16,1,0.0,0.0,WeChat,paid
+O100109,U0085,2024-03-30,shenzhen ,Home,653.18,1,0.0,12.0,WeChat,paid
+O100487,U0009,2024-04-10,beijing,Clothes,34.05,1,0.0,10.0,WeChat,paid
+O100145,U0028,2024-03-16,  Shanghai,Home,657.87,2,0.15,0.0,Alipay,paid
+O100092,U0063,2024-05-31,  Shanghai,Clothes,619.99,1,0.0,0.0,WeChat,paid
+O100152,U0048,2024-04-08,Guangzhou,Clothes,416.52,2,0.0,0.0,CreditCard,paid
+O100228,U0001,2024-08-20,chengdu,Clothes,593.82,1,0.0,6.0,Alipay,paid
+O100416,U0051,2024-01-25,  Shanghai,Home,441.82,1,0.15,12.0,Alipay,paid
+O100083,U0104,2024-09-06,shenzhen ,Electronics,155.81,1,0.0,6.0,Alipay,paid
+O100272,U0002,2024-09-23,beijing,Clothes,73.79,3,0.0,12.0,Alipay,paid
+O100165,U0099,2024-05-12,Guangzhou,Electronics,97.36,1,0.0,6.0,WeChat,paid
+O100163,U0035,2024-08-10,beijing,Home,586.64,2,0.1,0.0,WeChat,paid
+O100199,U0036,2024-05-05,shenzhen ,Home,639.47,1,0.0,10.0,CreditCard,paid
+O100237,U0072,2024-09-28,  Shanghai,Electronics,-675.05,2,0.0,10.0,Alipay,closed
+O100074,U0071,2024-09-10,chengdu,Clothes,29.44,1,0.0,10.0,WeChat,paid
+O100314,U0019,2024-03-06,  Shanghai,Clothes,215.75,2,0.0,0.0,WeChat,paid
+O100222,U0119,2024-08-16,chengdu,Home,135.01,1,0.0,10.0,WeChat,paid
+O100479,U0066,2024-01-10,shenzhen ,Electronics,597.13,2,0.05,12.0,Alipay,paid
+O100119,U0109,2024-09-05,beijing,Clothes,755.6,4,0.05,6.0,Alipay,paid
+O100286,U0070,2024-07-20,,Clothes,68.87,3,0.0,0.0,Alipay,paid
+O100304,U0097,2024-09-15,chengdu,Clothes,530.26,5,0.05,6.0,Alipay,paid
+O100424,U0097,2024-04-20,chengdu,Clothes,666.03,1,0.0,,WeChat,paid
+O100360,U0003,2024-01-01,shenzhen ,Electronics,408.29,2,0.05,6.0,Alipay,closed
+O100407,U0115,2024-02-08,beijing,Clothes,456.61,1,0.15,6.0,WeChat,paid
+O100234,U0003,2024-05-23,Guangzhou,Clothes,632.81,1,0.1,10.0,Alipay,paid
+O100380,U0093,2024-01-08,beijing,Clothes,267.07,1,0.0,0.0,WeChat,refund
+O100478,U0023,2024-06-26,  Shanghai,Clothes,52.78,1,0.15,10.0,CreditCard,paid
+O100390,U0100,2024-03-18,shenzhen ,Clothes,138.64,1,0.15,0.0,Alipay,paid
+O100278,U0097,2024-04-08,Guangzhou,Electronics,214.65,4,0.05,0.0,Alipay,paid
+O100036,U0049,2024-05-26,  Shanghai,Clothes,678.6,2,0.0,6.0,WeChat,refund
+O100196,U0015,2024-07-20,shenzhen ,Clothes,22.51,1,0.1,10.0,Alipay,closed
+O100139,U0035,2024-08-04,shenzhen ,Clothes,788.04,2,0.0,12.0,Alipay,paid
+O100371,U0036,2024-04-30,  Shanghai,Electronics,470.52,1,,0.0,Alipay,paid
+O100253,U0105,2024-07-30,shenzhen ,Clothes,700.73,1,0.1,6.0,Alipay,paid
+O100289,U0068,2024-03-25,Guangzhou,Electronics,435.29,2,0.05,12.0,WeChat,paid
+O100290,U0055,2024-03-18,chengdu,Electronics,340.65,4,0.0,12.0,Alipay,paid
+O100059,U0039,2024-09-03,beijing,Electronics,534.3,1,0.15,6.0,WeChat,paid
+O100111,U0109,2024-04-02,chengdu,Electronics,119.91,1,,12.0,CreditCard,paid
+O100089,U0004,2024-09-03,chengdu,Clothes,84.09,5,0.05,0.0,Alipay,closed
+O100268,U0081,2024-05-25,shenzhen ,Electronics,125.58,1,0.0,12.0,Alipay,paid
+O100006,U0061,2024-05-22,chengdu,Electronics,506.64,1,0.0,10.0,CreditCard,paid
+O100367,U0116,2024-08-05,Guangzhou,Electronics,178.94,2,0.0,10.0,WeChat,paid
+O100351,U0037,2024-04-02,  Shanghai,Electronics,206.26,5,0.15,0.0,Alipay,paid
+O100392,U0068,2024-06-02,chengdu,Clothes,499.93,1,0.0,10.0,Alipay,refund
+O100158,U0099,2024-02-08,beijing,Electronics,613.67,1,0.0,6.0,Alipay,paid
+O100150,U0034,2024-05-23,beijing,Home,442.95,1,0.0,10.0,Alipay,paid
+O100177,U0009,2024-01-07,beijing,Electronics,613.57,1,0.0,,CreditCard,paid
+O100421,U0098,2024-05-25,Guangzhou,Electronics,378.23,4,0.15,6.0,Alipay,paid
+O100184,U0063,2024-01-05,  Shanghai,Home,136.13,1,0.0,0.0,Alipay,paid
+O100287,U0032,2024-03-23,chengdu,Home,727.02,1,0.0,,WeChat,paid
+O100010,U0087,2024-06-01,chengdu,Electronics,711.55,2,0.1,0.0,WeChat,paid
+O100388,U0061,2024-01-14,shenzhen ,Electronics,717.31,2,0.0,10.0,Alipay,paid
+O100103,U0015,2024-01-12,Guangzhou,Clothes,643.0,2,0.0,0.0,WeChat,paid
+O100081,U0036,2024-06-28,chengdu,Clothes,535.87,1,0.1,6.0,Alipay,paid
+O100038,U0059,2024-04-29,Guangzhou,Clothes,400.83,1,0.0,0.0,Alipay,paid
+O100320,U0071,2024-04-07,Guangzhou,Clothes,583.8,1,0.1,0.0,Alipay,paid
+O100198,U0029,2024-02-08,Guangzhou,Electronics,297.28,1,0.0,0.0,Alipay,paid
+O100262,U0002,2024-01-10,shenzhen ,Clothes,407.24,3,0.0,0.0,WeChat,paid
+O100146,U0007,2024-09-21,  Shanghai,Electronics,186.54,3,0.15,10.0,Alipay,paid
+O100400,U0007,2024-09-30,shenzhen ,Clothes,540.98,5,0.05,6.0,WeChat,paid
+O100147,U0073,2024-07-24,Guangzhou,Home,414.57,2,0.15,6.0,Alipay,paid
+O100312,U0059,2024-07-25,Guangzhou,Clothes,137.97,1,,6.0,WeChat,paid
+O100291,U0075,2024-01-01,beijing,Clothes,290.93,1,0.1,0.0,CreditCard,paid
+O100123,U0045,2024-06-25,shenzhen ,Home,711.8,2,0.05,6.0,WeChat,paid
+O100375,U0099,2024-04-16,beijing,Electronics,733.77,2,0.0,0.0,WeChat,paid
+O100096,U0034,2024-06-27,beijing,Electronics,114.68,2,0.0,0.0,Alipay,closed
+O100143,U0103,2024-04-09,chengdu,Electronics,122.75,1,0.0,0.0,WeChat,paid
+O100239,U0009,2024-01-08,  Shanghai,Home,466.06,2,0.15,0.0,Alipay,paid
+O100277,U0096,2024-04-14,chengdu,Electronics,726.88,2,0.0,,WeChat,paid
+O100097,U0074,2024-04-10,  Shanghai,Home,499.71,2,0.05,10.0,WeChat,paid
+O100356,U0099,2024-01-05,beijing,Electronics,70.86,3,0.15,10.0,Alipay,paid
+O100122,U0015,2024-08-14,,Electronics,174.03,1,0.0,0.0,WeChat,paid
+O100183,U0051,2024-07-12,  Shanghai,Clothes,275.01,5,0.0,0.0,WeChat,paid
+O100202,U0071,2024-08-29,shenzhen ,Home,395.16,4,,10.0,WeChat,paid
+O100246,U0024,2024-01-28,chengdu,Clothes,668.72,5,0.0,10.0,WeChat,closed
+O100311,U0020,2024-09-11,  Shanghai,Electronics,108.99,2,0.0,6.0,CreditCard,paid
+O100414,U0102,2024-01-13,shenzhen ,Home,689.38,2,0.0,0.0,WeChat,paid
+O100357,U0019,2024-04-01,shenzhen ,Clothes,381.87,1,0.0,6.0,WeChat,paid
+O100305,U0073,2024-09-24,beijing,Electronics,174.52,2,0.0,6.0,WeChat,paid
+O100403,U0033,2024-07-10,  Shanghai,Electronics,-707.9,1,,10.0,Alipay,paid
+O100382,U0110,2024-09-09,Guangzhou,Home,726.79,1,0.0,6.0,Alipay,paid
+O100125,U0089,2024-02-05,beijing,Home,243.01,2,0.05,0.0,Alipay,paid
+O100488,U0043,2024-09-29,Guangzhou,Clothes,770.99,1,0.05,10.0,Alipay,paid
+O100223,U0092,2024-06-12,chengdu,Home,275.99,1,0.0,10.0,Alipay,paid
+O100426,U0111,2024-04-20,chengdu,Electronics,155.53,1,0.0,6.0,Alipay,paid
+O100219,U0030,2024-07-31,  Shanghai,Home,635.12,1,0.1,,Alipay,paid
+O100129,U0001,2024-07-08,  Shanghai,Clothes,736.76,2,0.0,0.0,WeChat,paid
+O100428,U0097,2024-08-23,Guangzhou,Electronics,664.26,1,0.0,0.0,Alipay,paid
+O100484,U0017,2024-06-16,,Clothes,730.4,1,0.05,,Alipay,paid
+O100334,U0023,2024-09-18,Guangzhou,Home,445.44,1,,6.0,CreditCard,closed
+O100384,U0066,2024-07-25,beijing,Clothes,787.15,1,0.05,,WeChat,paid
+O100409,U0119,2024-08-18,Guangzhou,Home,581.1,2,0.0,0.0,WeChat,paid
+O100361,U0020,2024-05-12,Guangzhou,Clothes,102.27,1,0.0,6.0,Alipay,paid
+O100299,U0070,2024-02-08,chengdu,Clothes,346.66,3,0.0,0.0,WeChat,paid
+O100294,U0038,2024-07-23,beijing,Home,537.76,2,0.1,0.0,Alipay,paid
+O100373,U0104,2024-08-26,Guangzhou,Electronics,642.37,1,0.0,6.0,Alipay,paid
+O100346,U0002,2024-01-08,  Shanghai,Electronics,425.12,4,0.05,6.0,WeChat,paid
+O100112,U0082,2024-03-30,  Shanghai,Clothes,283.85,1,0.0,10.0,Alipay,refund
+O100179,U0015,2024-05-20,shenzhen ,Clothes,601.67,2,0.0,10.0,WeChat,closed
+O100477,U0086,2024-06-09,beijing,Electronics,349.59,1,0.0,6.0,Alipay,paid
+O100352,U0032,2024-06-08,Guangzhou,Clothes,371.97,2,0.0,6.0,Alipay,paid
+O100336,U0094,2024-07-23,,Electronics,419.75,2,0.0,10.0,Alipay,paid
+O100491,U0039,2024-04-03,beijing,Electronics,666.93,2,0.0,6.0,Alipay,paid
+O100404,U0048,2024-04-28,  Shanghai,Clothes,353.44,1,0.1,10.0,Alipay,paid
+O100233,U0105,2024-09-15,beijing,Electronics,516.22,1,0.0,10.0,Alipay,paid
+O100456,U0097,2024-04-27,  Shanghai,Home,185.86,3,0.0,0.0,WeChat,paid
+O100317,U0019,2024-07-10,  Shanghai,Clothes,428.24,3,0.0,0.0,WeChat,paid
+O100164,U0065,2024-05-01,  Shanghai,Clothes,793.61,2,0.1,10.0,Alipay,paid
+O100136,U0081,2024-09-29,shenzhen ,Electronics,531.81,1,0.0,6.0,WeChat,paid
+O100197,U0043,2024-01-19,chengdu,Electronics,503.28,2,0.1,10.0,WeChat,paid
+O100258,U0058,2024-09-09,beijing,Electronics,396.72,1,0.1,12.0,Alipay,paid
+O100232,U0077,2024-02-23,beijing,Clothes,348.57,2,0.15,10.0,Alipay,paid
+O100115,U0024,2024-07-14,beijing,Electronics,310.29,2,0.0,12.0,WeChat,paid
+O100120,U0041,2024-06-12,shenzhen ,Electronics,207.74,2,0.0,10.0,WeChat,paid
+O100355,U0105,2024-02-20,Guangzhou,Electronics,41.19,1,0.1,6.0,WeChat,closed
+O100224,U0089,2024-08-14,shenzhen ,Clothes,358.54,1,0.15,0.0,Alipay,paid
+O100410,U0022,2024-03-26,beijing,Electronics,714.4,2,0.05,6.0,Alipay,closed
+O100438,U0044,2024-03-10,Guangzhou,Clothes,676.33,2,0.0,0.0,Alipay,paid
+O100127,U0009,2024-05-31,  Shanghai,Electronics,691.87,2,0.0,12.0,WeChat,paid
+O100285,U0032,2024-06-13,  Shanghai,Home,46.22,1,0.0,6.0,Alipay,paid
+O100432,U0019,2024-01-06,chengdu,Electronics,291.39,3,0.0,6.0,CreditCard,paid
+O100107,U0062,2024-02-04,beijing,Electronics,474.29,2,0.0,0.0,WeChat,paid
+O100377,U0089,2024-03-01,chengdu,Electronics,143.2,2,0.15,0.0,WeChat,refund
+O100331,U0057,2024-09-29,Guangzhou,Clothes,380.59,1,0.05,6.0,WeChat,paid
+O100133,U0063,2024-07-01,shenzhen ,Electronics,676.76,1,0.0,10.0,Alipay,paid
+O100370,U0072,2024-02-16,beijing,Clothes,638.43,2,0.05,10.0,WeChat,paid
+O100044,U0062,2024-05-08,chengdu,Electronics,327.69,1,0.05,10.0,Alipay,closed
+O100470,U0067,2024-02-16,chengdu,Electronics,368.7,1,0.0,0.0,Alipay,refund
+O100065,U0114,2024-08-07,beijing,Electronics,137.13,2,0.1,0.0,Alipay,paid
+O100283,U0044,2024-01-23,  Shanghai,Clothes,70.99,3,0.05,10.0,WeChat,paid
+O100085,U0002,2024-04-05,,Electronics,535.04,1,0.0,10.0,WeChat,paid
+O100242,U0097,2024-03-30,  Shanghai,Electronics,302.54,1,0.05,10.0,Alipay,paid
+O100186,U0103,2024-06-13,  Shanghai,Electronics,703.79,1,0.0,0.0,Alipay,paid
+O100391,U0033,2024-08-03,beijing,Home,363.45,1,0.1,10.0,CreditCard,paid
+O100159,U0044,2024-04-18,Guangzhou,Clothes,144.86,1,0.0,0.0,CreditCard,refund
+O100012,U0075,2024-03-03,chengdu,Clothes,171.81,1,0.0,,WeChat,paid
+O100035,U0089,2024-06-06,beijing,Electronics,374.41,2,0.0,0.0,Alipay,paid
+O100028,U0060,2024-07-14,  Shanghai,Electronics,208.14,3,0.0,0.0,WeChat,paid
+O100170,U0001,2024-05-25,  Shanghai,Home,591.8,1,0.15,,WeChat,paid
+O100142,U0106,2024-06-25,beijing,Home,148.56,2,0.1,6.0,WeChat,paid
+O100406,U0059,2024-07-20,shenzhen ,Electronics,29.83,2,0.1,0.0,Alipay,paid
+O100189,U0096,2024-08-07,shenzhen ,Clothes,369.92,1,0.0,12.0,CreditCard,paid
+O100221,U0075,2024-09-08,beijing,Clothes,363.36,1,0.0,10.0,WeChat,paid
+O100095,U0044,2024-02-02,chengdu,Electronics,180.44,4,0.15,6.0,Alipay,paid
+O100051,U0116,2024-04-27,  Shanghai,Electronics,556.75,2,0.0,10.0,WeChat,paid
+O100240,U0062,2024-05-01,  Shanghai,Electronics,478.46,1,0.1,10.0,WeChat,paid
+O100398,U0120,2024-08-25,chengdu,Home,345.85,4,0.0,12.0,CreditCard,paid
+O100386,U0035,2024-02-25,  Shanghai,Clothes,177.57,1,0.0,0.0,WeChat,paid
+O100178,U0079,2024-06-22,shenzhen ,Clothes,47.54,1,0.0,6.0,Alipay,paid
+O100041,U0060,2024-08-16,Guangzhou,Electronics,595.14,2,0.0,6.0,WeChat,paid
+O100444,U0006,2024-09-03,  Shanghai,Home,273.58,1,0.0,6.0,Alipay,paid
+O100395,U0021,2024-01-07,chengdu,Clothes,646.81,2,0.0,10.0,Alipay,refund
+O100206,U0028,2024-05-27,chengdu,Clothes,457.96,3,0.05,,Alipay,paid
+O100282,U0053,2024-09-15,chengdu,Clothes,625.83,1,0.0,6.0,Alipay,paid
+O100254,U0052,2024-08-07,shenzhen ,Electronics,676.71,2,,6.0,Alipay,paid
+O100420,U0027,2024-04-18,chengdu,Clothes,660.88,1,0.0,0.0,WeChat,paid
+O100004,U0107,2024-09-20,beijing,Electronics,499.87,1,0.0,0.0,WeChat,paid
+O100256,U0062,2024-02-15,Guangzhou,Electronics,646.06,3,0.0,10.0,WeChat,paid
+O100457,U0116,2024-04-03,Guangzhou,Clothes,45.89,1,0.0,10.0,WeChat,closed
+O100100,U0014,2024-06-16,chengdu,Electronics,433.64,4,0.1,10.0,Alipay,closed
+O100226,U0062,2024-01-20,Guangzhou,Clothes,192.08,5,0.05,10.0,WeChat,paid
+O100142,U0106,2024-06-28,beijing,Home,148.56,2,0.1,8.0,WeChat,paid
+O100213,U0006,2024-02-13,beijing,Electronics,408.64,1,,12.0,Alipay,closed
+O100436,U0049,2024-05-29,beijing,Clothes,504.32,3,0.0,6.0,Alipay,paid
+O100171,U0005,2024-08-26,  Shanghai,Electronics,500.47,1,0.0,10.0,Alipay,paid
+O100098,U0062,2024-09-24,  Shanghai,Electronics,624.21,1,0.0,10.0,Alipay,paid
+O100292,U0056,2024-02-20,shenzhen ,Home,721.87,1,0.0,6.0,CreditCard,refund
+O100215,U0028,2024-06-08,  Shanghai,Home,65.67,2,0.0,6.0,WeChat,refund
+O100061,U0004,2024-06-02,shenzhen ,Electronics,516.6,5,,6.0,WeChat,refund
+O100047,U0062,2024-01-01,beijing,Clothes,715.83,1,0.1,10.0,Alipay,paid
+O100032,U0058,2024-09-25,shenzhen ,Clothes,400.53,1,0.15,0.0,Alipay,paid
+O100267,U0056,2024-03-05,  Shanghai,Electronics,495.98,2,0.05,12.0,WeChat,paid
+O100327,U0104,2024-03-21,chengdu,Home,149.3,3,0.0,10.0,WeChat,paid
+O100200,U0013,2024-06-21,beijing,Home,92.53,4,0.15,10.0,Alipay,paid
+O100455,U0060,2024-05-13,,Electronics,258.14,1,0.0,10.0,Alipay,paid
+O100027,U0064,2024-04-12,Guangzhou,Electronics,29.45,2,0.0,10.0,Alipay,paid
+O100397,U0020,2024-04-20,chengdu,Clothes,774.36,1,0.0,0.0,WeChat,paid
+O100230,U0062,2024-05-22,  Shanghai,Home,747.83,1,0.05,0.0,CreditCard,paid
+O100260,U0012,2024-09-12,shenzhen ,Electronics,82.87,5,,10.0,CreditCard,paid
+O100378,U0099,2024-01-26,chengdu,Electronics,562.8,1,0.0,6.0,Alipay,paid
+O100288,U0119,2024-05-24,beijing,Electronics,128.61,1,0.0,10.0,Alipay,paid
+O100162,U0091,2024-07-04,  Shanghai,Electronics,212.41,99,0.0,10.0,WeChat,paid
+O100433,U0004,2024-06-28,chengdu,Electronics,371.27,1,0.1,10.0,CreditCard,paid
+O100138,U0035,2024-03-24,shenzhen ,Clothes,445.12,1,0.05,6.0,Alipay,paid
+O100062,U0089,2024-05-23,shenzhen ,Electronics,498.87,1,0.0,10.0,WeChat,paid
+O100135,U0115,2024-08-04,Guangzhou,Home,625.63,1,0.15,10.0,WeChat,paid
+O100128,U0088,2024-05-30,chengdu,Clothes,680.28,3,0.15,6.0,CreditCard,closed
+O100486,U0033,2024-03-24,shenzhen ,Electronics,647.83,1,0.05,10.0,WeChat,paid
+O100008,U0103,2024-08-02,shenzhen ,Electronics,352.35,3,,0.0,WeChat,refund
+O100326,U0082,2024-02-20,shenzhen ,Clothes,398.06,1,0.0,0.0,WeChat,paid
+O100473,U0024,2024-05-21,Guangzhou,Home,446.39,2,0.0,12.0,Alipay,paid
+O100064,U0014,2024-07-03,chengdu,Electronics,424.36,1,,0.0,CreditCard,paid
+O100300,U0086,2024-06-02,shenzhen ,Electronics,222.92,1,0.0,0.0,WeChat,paid
+O100014,U0117,2024-05-04,  Shanghai,Electronics,343.02,1,0.0,10.0,WeChat,paid
+O100156,U0088,2024-05-23,Guangzhou,Electronics,701.19,3,0.15,6.0,WeChat,paid
+O100040,U0092,2024-02-27,shenzhen ,Electronics,273.25,2,,0.0,Alipay,paid
+O100379,U0025,2024-09-13,,Electronics,638.74,1,0.0,0.0,Alipay,paid
+O100469,U0058,2024-05-19,beijing,Electronics,106.57,5,0.0,6.0,WeChat,paid
+O100411,U0110,2024-05-05,chengdu,Electronics,81.94,5,0.1,12.0,WeChat,paid
+O100216,U0108,2024-06-21,shenzhen ,Electronics,280.71,1,0.05,6.0,CreditCard,paid
+O100279,U0001,2024-01-06,chengdu,Electronics,232.12,1,0.05,12.0,Alipay,paid
+O100481,U0106,2024-05-17,Guangzhou,Clothes,238.43,1,0.15,10.0,WeChat,paid
+O100439,U0092,2024-04-21,beijing,Home,387.6,2,0.0,10.0,WeChat,paid
+O100337,U0042,2024-05-05,Guangzhou,Clothes,648.99,1,0.05,0.0,WeChat,refund
+O100236,U0070,2024-08-11,Guangzhou,Clothes,339.73,3,0.0,0.0,Alipay,paid
+O100207,U0066,2024-01-01,,Clothes,457.31,5,0.0,10.0,WeChat,paid
+O100212,U0117,2024-02-27,chengdu,Clothes,663.54,1,0.05,10.0,Alipay,paid
+O100295,U0024,2024-09-16,Guangzhou,Electronics,771.45,2,0.0,0.0,Alipay,refund
+O100499,U0024,2024-02-29,shenzhen ,Clothes,29.68,1,0.0,6.0,WeChat,paid
+O100251,U0096,2024-05-24,shenzhen ,Home,222.25,1,0.1,,Alipay,paid
+O100498,U0025,2024-01-01,chengdu,Electronics,208.68,1,0.0,0.0,WeChat,paid
+O100467,U0095,2024-01-20,  Shanghai,Electronics,543.17,1,,10.0,WeChat,paid
+O100303,U0016,2024-04-27,  Shanghai,Home,220.09,1,0.05,,WeChat,paid
+O100350,U0069,2024-06-03,shenzhen ,Electronics,699.05,2,0.15,6.0,WeChat,paid
+O100269,U0059,2024-08-11,  Shanghai,Clothes,606.07,1,0.0,10.0,WeChat,paid
+O100201,U0032,2024-05-20,  Shanghai,Electronics,478.8,1,0.1,10.0,WeChat,paid
+O100161,U0086,2024-02-11,Guangzhou,Clothes,27.28,1,0.0,0.0,CreditCard,closed
+O100043,U0015,2024-05-06,  Shanghai,Clothes,313.19,1,0.0,10.0,Alipay,paid
+O100217,U0044,2024-05-28,Guangzhou,Clothes,632.22,2,0.0,0.0,Alipay,paid
+O100401,U0067,2024-08-14,beijing,Electronics,515.04,1,0.05,0.0,WeChat,paid
+O100190,U0004,2024-05-11,shenzhen ,Home,583.22,5,0.05,10.0,Alipay,paid
+O100309,U0093,2024-09-07,beijing,Electronics,494.65,2,0.0,0.0,Alipay,paid
+O100259,U0052,2024-03-22,Guangzhou,Electronics,124.11,1,0.0,10.0,WeChat,paid
+O100105,U0078,2024-09-09,  Shanghai,Clothes,784.38,1,0.0,10.0,Alipay,paid
+O100053,U0003,2024-03-29,Guangzhou,Electronics,218.64,2,0.0,6.0,WeChat,paid
+O100389,U0041,2024-01-28,shenzhen ,Electronics,530.35,1,0.0,6.0,WeChat,paid
+O100001,U0052,2024-02-05,beijing,Electronics,417.35,1,0.0,0.0,Alipay,paid
+O100450,U0113,2024-08-10,shenzhen ,Electronics,672.89,1,0.0,6.0,CreditCard,refund
+O100492,U0093,2024-04-04,Guangzhou,Clothes,239.59,5,0.0,0.0,WeChat,closed
+O100049,U0108,2024-04-05,Guangzhou,Clothes,633.78,4,0.0,10.0,WeChat,paid
+O100419,U0027,2024-08-20,  Shanghai,Electronics,387.51,1,0.0,10.0,CreditCard,paid
+O100080,U0081,2024-04-09,Guangzhou,Home,624.23,1,,6.0,CreditCard,paid
+O100205,U0086,2024-02-27,beijing,Clothes,472.39,2,0.05,10.0,CreditCard,paid
+O100034,U0108,2024-04-15,Guangzhou,Clothes,447.41,1,0.0,12.0,WeChat,paid
+O100430,U0061,2024-02-11,Guangzhou,Home,207.1,1,0.05,0.0,Alipay,paid
+O100263,U0003,2024-08-29,  Shanghai,Electronics,360.74,99,0.1,0.0,Alipay,paid
+O100427,U0064,2024-09-20,Guangzhou,Electronics,575.37,1,0.1,10.0,WeChat,paid
+O100366,U0024,2024-03-18,Guangzhou,Home,772.29,3,,0.0,Alipay,paid
+O100091,U0093,2024-06-08,shenzhen ,Clothes,250.45,1,0.0,6.0,Alipay,paid
+O100339,U0007,2024-02-12,shenzhen ,Home,60.53,1,0.05,6.0,CreditCard,paid
+O100483,U0090,2024-01-13,  Shanghai,Clothes,247.93,1,0.0,6.0,Alipay,paid
+O100052,U0064,2024-02-17,Guangzhou,Home,361.33,1,0.0,6.0,WeChat,paid
+O100345,U0113,2024-04-04,  Shanghai,Clothes,610.27,1,0.1,6.0,Alipay,paid
+O100264,U0113,2024-09-07,chengdu,Electronics,589.02,1,0.15,6.0,CreditCard,paid
+O100241,U0037,2024-06-12,Guangzhou,Home,163.89,1,0.1,6.0,Alipay,paid
+O100013,U0088,2024-07-08,shenzhen ,Home,306.85,1,,10.0,WeChat,paid
+O100315,U0090,2024-03-15,shenzhen ,Clothes,683.48,2,0.0,0.0,CreditCard,paid
+O100088,U0106,2024-01-16,chengdu,Home,36.34,2,0.0,0.0,WeChat,refund
+O100387,U0080,2024-08-01,  Shanghai,Clothes,163.7,1,0.1,6.0,Alipay,paid
+O100273,U0092,2024-03-03,,Electronics,64.5,5,0.0,0.0,WeChat,paid
+O100166,U0101,2024-06-11,chengdu,Electronics,333.17,1,0.05,12.0,WeChat,paid
+O100328,U0001,2024-05-12,Guangzhou,Home,757.64,4,0.0,6.0,WeChat,refund
+O100484,U0017,2024-06-16,,Clothes,730.4,1,0.05,,Alipay,paid
+O100134,U0011,2024-01-13,beijing,Clothes,588.22,1,0.0,10.0,WeChat,paid
+O100306,U0059,2024-02-23,shenzhen ,Clothes,460.96,3,0.0,10.0,Alipay,paid
+O100490,U0048,2024-02-07,  Shanghai,Home,257.71,1,0.0,6.0,WeChat,paid
+O100319,U0096,2024-08-13,chengdu,Home,690.91,1,0.1,12.0,Alipay,paid
+O100243,U0051,2024-05-15,shenzhen ,Home,280.92,1,0.15,10.0,WeChat,closed
+O100054,U0101,2024-08-24,Guangzhou,Clothes,675.88,1,0.0,10.0,CreditCard,paid
+O100363,U0054,2024-01-12,,Electronics,661.24,1,0.05,0.0,WeChat,paid
+O100050,U0055,2024-05-05,beijing,Electronics,266.02,2,0.0,10.0,CreditCard,paid
+O100465,U0025,2024-07-30,beijing,Electronics,223.02,1,0.0,10.0,WeChat,paid
+O100174,U0014,2024-03-14,beijing,Clothes,631.36,2,0.0,10.0,WeChat,paid
+O100445,U0099,2024-08-30,Guangzhou,Electronics,555.34,2,0.05,0.0,Alipay,paid
+O100189,U0096,2024-08-04,shenzhen ,Clothes,369.92,1,0.0,10.0,CreditCard,paid
+O100402,U0017,2024-01-17,shenzhen ,Clothes,149.44,2,0.0,14.0,CreditCard,paid
+O100463,U0067,2024-05-12,  Shanghai,Clothes,634.99,1,0.1,0.0,WeChat,paid
+O100187,U0113,2024-05-15,Guangzhou,Electronics,797.14,1,0.1,0.0,Alipay,paid
+O100169,U0003,2024-08-22,Guangzhou,Electronics,452.97,3,0.0,12.0,WeChat,closed
+O100058,U0073,2024-03-09,  Shanghai,Electronics,517.02,1,0.1,12.0,WeChat,paid
+O100048,U0051,2024-08-26,  Shanghai,Electronics,765.16,2,0.0,6.0,WeChat,paid
+O100344,U0060,2024-07-01,  Shanghai,Clothes,277.57,4,0.05,12.0,WeChat,refund
+O100235,U0103,2024-01-12,beijing,Electronics,112.3,5,0.0,6.0,WeChat,paid
+O100252,U0088,2024-07-19,beijing,Clothes,355.13,2,0.0,6.0,WeChat,paid
+O100021,U0002,2024-04-10,  Shanghai,Electronics,34.97,1,0.05,6.0,WeChat,paid
+O100313,U0036,2024-08-16,beijing,Electronics,195.75,2,0.0,10.0,WeChat,paid
+O100459,U0085,2024-07-12,beijing,Electronics,529.47,1,0.0,10.0,Alipay,paid
+O100160,U0104,2024-06-29,beijing,Electronics,380.01,2,0.15,12.0,CreditCard,paid
+O100276,U0101,2024-04-07,shenzhen ,Clothes,212.64,2,0.1,10.0,WeChat,paid
+O100443,U0117,2024-05-16,beijing,Electronics,547.42,2,0.1,0.0,Alipay,paid
+O100191,U0094,2024-03-10,  Shanghai,Electronics,711.23,1,0.1,6.0,WeChat,paid
+O100385,U0054,2024-05-06,chengdu,Home,129.75,3,0.05,10.0,WeChat,paid
+O100293,U0017,2024-06-21,chengdu,Electronics,37.02,2,0.0,0.0,Alipay,paid
+O100413,U0038,2024-05-24,shenzhen ,Home,166.18,4,0.0,6.0,WeChat,paid
+O100343,U0116,2024-05-30,  Shanghai,Clothes,148.47,3,0.0,10.0,WeChat,paid
+O100257,U0113,2024-02-04,beijing,Clothes,377.39,4,0.1,6.0,Alipay,paid
+O100308,U0080,2024-08-09,beijing,Electronics,778.16,1,0.0,6.0,CreditCard,paid
+O100149,U0012,2024-02-21,beijing,Electronics,591.59,2,0.1,10.0,Alipay,paid
+O100130,U0108,2024-08-11,beijing,Home,216.75,1,0.0,0.0,Alipay,paid
+O100151,U0033,2024-03-09,Guangzhou,Electronics,480.47,1,0.0,10.0,Alipay,paid
+O100359,U0080,2024-01-22,chengdu,Home,440.19,2,0.1,6.0,Alipay,paid
+O100099,U0100,2024-03-05,shenzhen ,Home,522.25,3,0.0,10.0,Alipay,paid
+O100372,U0038,2024-08-01,beijing,Electronics,514.97,1,0.0,10.0,Alipay,paid
+O100087,U0054,2024-01-04,beijing,Clothes,226.74,1,0.05,10.0,Alipay,paid
+O100458,U0063,2024-03-02,chengdu,Home,257.08,1,0.0,0.0,Alipay,paid
+O100330,U0092,2024-07-02,  Shanghai,Electronics,541.84,4,,10.0,Alipay,paid
+O100214,U0028,2024-06-21,shenzhen ,Clothes,80.11,1,0.0,12.0,Alipay,paid
+O100466,U0106,2024-08-12,shenzhen ,Clothes,727.61,2,0.15,6.0,CreditCard,paid
+O100121,U0029,2024-07-10,beijing,Electronics,114.77,2,0.1,6.0,CreditCard,paid
+O100082,U0050,2024-08-14,chengdu,Home,164.45,2,0.0,2.0,Alipay,paid
+O100020,U0053,2024-02-23,chengdu,Clothes,395.45,1,0.1,0.0,Alipay,closed
+O100188,U0052,2024-05-24,shenzhen ,Electronics,307.28,1,,6.0,CreditCard,paid
+O100071,U0092,2024-08-05,chengdu,Electronics,578.73,1,0.0,10.0,WeChat,paid
+O100106,U0087,2024-08-29,shenzhen ,Clothes,489.47,1,0.05,10.0,WeChat,paid
+O100270,U0113,2024-08-26,beijing,Clothes,532.43,1,0.15,0.0,Alipay,paid
+O100348,U0048,2024-07-13,beijing,Home,704.71,1,0.0,,WeChat,paid
+O100435,U0064,2024-08-16,chengdu,Clothes,527.9,1,0.0,6.0,WeChat,paid
+O100102,U0048,2024-02-13,  Shanghai,Clothes,775.42,1,0.0,6.0,WeChat,closed
