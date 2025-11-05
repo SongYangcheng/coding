@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="307d9254907d4774af09e33028a0014b" class="chart-container" style="width:900px; height:600px; "></div>
+    <script>
+        var chart_307d9254907d4774af09e33028a0014b = echarts.init(
+            document.getElementById('307d9254907d4774af09e33028a0014b'), 'light', {renderer: 'canvas', locale: 'ZH'});
+        var option_307d9254907d4774af09e33028a0014b = {
+    "backgroundColor": "#FFFFFF",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u6bcf\u6708\u5728\u7ebf\u4eba\u6570\u589e\u76ca\u540d\u79f0",
+            "legendHoverLink": true,
+            "data": [
+                {
+                    "name": "Titanic - Machine Learning from Disaster",
+                    "value": 13383.0,
+                    "itemStyle": {
+                        "color":         new echarts.graphic.LinearGradient(0, 0, 0, 1, [            {offset: 0, color: '#ff9999'},            {offset: 0.5, color: '#ff4d4d'},            {offset: 1, color: '#cc0000'}        ], false)        
+                    }
+                },
+                {
+                    "name": "Housing Prices Competition for Kaggle Le...",
+                    "value": 3640.0,
+                    "itemStyle": {
+                        "color":         new echarts.graphic.LinearGradient(0, 0, 0, 1, [            {offset: 0, color: '#ff9999'},            {offset: 0.5, color: '#ff4d4d'},            {offset: 1, color: '#cc0000'}        ], false)        
+                    }
+                },
+                {
+                    "name": "House Prices - Advanced Regression Techn...",
+                    "value": 3326.0,
+                    "itemStyle": {
+                        "color":         new echarts.graphic.LinearGradient(0, 0, 0, 1, [            {offset: 0, color: '#ff9999'},            {offset: 0.5, color: '#ff4d4d'},            {offset: 1, color: '#cc0000'}        ], false)        
+                    }
+                }
+            ],
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#ffffff",
+                "margin": 8,
+                "fontWeight": "bold",
+                "formatter": "{c}",
+                "valueAnimation": false
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6bcf\u6708\u5728\u7ebf\u4eba\u6570\u589e\u76ca\u540d\u79f0"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "shadow"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "formatter": "{b}<br/>\u5728\u7ebf\u4eba\u6570\u589e\u76ca\uff1a{c}",
+        "textStyle": {
+            "color": "#ffffff",
+            "fontSize": 12
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "#333333",
+        "borderWidth": 1,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "name": "\u7ade\u8d5b\u4e3b\u9898",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 50,
+            "nameTextStyle": {
+                "color": "#ffffff",
+                "fontSize": 14
+            },
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#444444"
+                }
+            },
+            "axisLabel": {
+                "show": true,
+                "color": "#ffffff",
+                "rotate": 45,
+                "margin": 8,
+                "interval": 0,
+                "fontSize": 10,
+                "valueAnimation": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                "Titanic - Machine Learning from Disaster",
+                "Housing Prices Competition for Kaggle Le...",
+                "House Prices - Advanced Regression Techn...",
+                "Spaceship Titanic",
+                "Hull Tactical - Market Prediction",
+                "ARC Prize 2025",
+                "Digit Recognizer",
+                "Natural Language Processing with Disaste...",
+                "MABe Challenge - Social Action Recogniti...",
+                "Store Sales - Time Series Forecasting",
+                "CAFA 6 Protein Function Prediction",
+                "CSIRO - Image2Biomass Prediction",
+                "NFL Big Data Bowl 2026 - Prediction",
+                "PhysioNet - Digitization of ECG Images",
+                "LLM Classification Finetuning"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u70ed\u5ea6",
+            "show": true,
+            "scale": false,
+            "nameLocation": "middle",
+            "nameGap": 40,
+            "nameTextStyle": {
+                "color": "#ffffff",
+                "fontSize": 14
+            },
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#444444"
+                }
+            },
+            "axisLabel": {
+                "show": true,
+                "color": "#ffffff",
+                "margin": 8,
+                "fontSize": 12,
+                "valueAnimation": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#444444"
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "Kaggle\u7ade\u8d5b\u4e3b\u9898\u70ed\u5ea6\u5206\u5e03",
+            "target": "blank",
+            "subtext": "\u6bcf\u6708\u5728\u7ebf\u4eba\u6570\u589e\u76ca",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "20px",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "color": "#ffffff",
+                "fontWeight": "bold",
+                "fontSize": 20
+            },
+            "subtextStyle": {
+                "color": "#aaaaaa",
+                "fontSize": 14
+            }
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "right": "20px",
+        "top": "20px",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "backgroundColor": "#ffffff"
+            },
+            "restore": {
+                "title": "\u8fd8\u539f"
+            },
+            "dataZoom": {
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u8fd8\u539f"
+                }
+            }
+        }
+    },
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "showDetail": true,
+            "showDataShadow": true,
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "bottom": "5%",
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "inside",
+            "showDetail": true,
+            "showDataShadow": true,
+            "realtime": true,
+            "start": 0,
+            "end": 100,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter",
+            "disabled": false,
+            "zoomOnMouseWheel": true,
+            "moveOnMouseMove": true,
+            "moveOnMouseWheel": true,
+            "preventDefaultMouseMove": true
+        }
+    ]
+};
+        chart_307d9254907d4774af09e33028a0014b.setOption(option_307d9254907d4774af09e33028a0014b);
+    </script>
+</body>
+</html>

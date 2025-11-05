@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="6eb8cf3718324b5ba901182b51c00dee" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_6eb8cf3718324b5ba901182b51c00dee = echarts.init(
+            document.getElementById('6eb8cf3718324b5ba901182b51c00dee'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_6eb8cf3718324b5ba901182b51c00dee = {
+    "backgroundColor": new echarts.graphic.RadialGradient(0.3, 0.3, 0.8, [{    offset: 0,    color: '#f7f8fa'}, {    offset: 1,    color: '#cdd0d5'}]),
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "scatter",
+            "name": "1990\u5e74",
+            "symbolSize": function (data) {return Math.sqrt(data[3])/5e4;},
+            "data": [
+                [
+                    180428956.2825,
+                    68,
+                    180428956.2825,
+                    360857912565,
+                    "China"
+                ]
+            ],
+            "label": {
+                "show": true,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "itemStyle": {
+                "shadowBlur": 10,
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 0,
+                "shadowColor": "rgba(0, 0, 0, 0.5)",
+                "color": new echarts.graphic.RadialGradient(0.4, 0.3, 1, [{    offset: 0,    color: 'rgba(255, 255, 255, 0.5)'}, {    offset: 1,    color: 'rgba(255, 0, 0, 1)'}])
+            }
+        },
+        {
+            "type": "scatter",
+            "name": "2015\u5e74",
+            "symbolSize": function (data) {return Math.sqrt(data[3])/5e4;},
+            "data": [
+                [
+                    180428956.2825,
+                    76,
+                    5530786309.289,
+                    11061572618578,
+                    "China"
+                ]
+            ],
+            "label": {
+                "show": true,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "itemStyle": {
+                "shadowBlur": 10,
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 5,
+                "shadowColor": "rgba(0, 0, 0, 0.5)",
+                "color": new echarts.graphic.RadialGradient(0.4, 0.3, 1, [{    offset: 0,    color: 'rgba(129, 227, 238)'}, {    offset: 1,    color: 'rgba(0, 191, 255)'}])
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "1990\u5e74",
+                "2015\u5e74"
+            ],
+            "selected": {},
+            "show": true,
+            "left": "right",
+            "top": "10%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "textStyle": {
+                "fontSize": 16
+            },
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "formatter": function(param) {return param.seriesName + '-' + param.data[4] + '<br/>'+ 'GDP: ' + param.data[2] + '<br/>'+ 'All_GDP: ' + param.data[3] + '<br/>'+ 'Life: ' + param.data[1];},
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "type": "value",
+            "name": "GDP",
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                180428956.2825
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "\u4eba\u5747\u5bff\u547d",
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "1990-2015\u5e74\u5404\u56fdGDP\u4e0e\u4eba\u5747\u5bff\u547d\u6563\u70b9\u56fe",
+            "target": "blank",
+            "subtext": "\u6570\u636e\u6765\u6e90\uff1a\u8054\u5408\u56fd\u6570\u636e",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "2%",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_6eb8cf3718324b5ba901182b51c00dee.setOption(option_6eb8cf3718324b5ba901182b51c00dee);
+    </script>
+</body>
+</html>
