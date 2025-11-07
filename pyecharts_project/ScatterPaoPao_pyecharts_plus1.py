@@ -24,7 +24,7 @@ dt2 = data[data['year']==2015][['GDP', 'life', 'all_GDP', 'country']].values.tol
 tool_js = """function(param) {return param.seriesName + '-' + param.data[4] + '<br/>'
 + 'GDP: ' + param.data[2] + '<br/>'
 + 'All_GDP: ' + param.data[3] + '<br/>'
-+ 'Life: ' + param.data[1];}"""
++ 'Life: ' + param.data[1];}""" #提示框JS代码
 #点渐变色设置
 item_color_js = """new echarts.graphic.RadialGradient(0.4, 0.3, 1, [{
     offset: 0,
@@ -39,17 +39,17 @@ item_color_js2 = """new echarts.graphic.RadialGradient(0.4, 0.3, 1, [{
 }, {
     offset: 1,
     color: 'rgba(0, 191, 255)'
-}])"""
+}])""" #点渐变色设置
 
 symbol_js = """function (data) {return Math.sqrt(data[3])/5e4;}""" #点大小计算JS代码
-item_style = {
+item_style = {#点样式
     'shadowBlur': 10,
     'shadowOffsetX': 0,#阴影X偏移
     'shadowOffsetY': 0,
     'shadowColor': 'rgba(0, 0, 0, 0.5)',
     'color': JsCode(item_color_js) #点颜色
 }
-item_style2 = {
+item_style2 = { #点样式
     'shadowBlur': 10,
     'shadowOffsetX': 0,#阴影X偏移
     'shadowOffsetY': 5,

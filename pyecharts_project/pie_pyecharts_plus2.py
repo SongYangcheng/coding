@@ -33,5 +33,5 @@ c = (
     .set_global_opts(
         title_opts=opts.TitleOpts(title="Pie-使用数据集设置数据")
     )
-    .render("html/pie_pyechart_plus2.html")
+    .render("html/pie_pyecharts_plus2.html")
 )
