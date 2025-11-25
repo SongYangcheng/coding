@@ -1,0 +1,32 @@
+{
+    "total_records": 532828,
+    "unique_users": 5626,
+    "avg_records_per_user": 94.70814077497334,
+    "unique_base_stations_observed": 20141,
+    "start_time": "2018-10-01 04:52:11.601000",
+    "end_time": "2018-10-03 15:57:43.291000",
+    "duration_total_seconds": 212731.69,
+    "duration_hours": 59.09213611111111,
+    "duration_days": 2.462172337962963,
+    "duplicate_records": 2568,
+    "duplicate_proportion": 0.004819566539295983,
+    "related_info_travel_mode": {
+        "total_entries": 968,
+        "unique_mode_types": [
+            "地铁",
+            "公交"
+        ]
+    },
+    "related_info_travel_purpose": {
+        "total_entries": 1273,
+        "unique_purpose_types": [
+            "居住",
+            "购物",
+            "旅游"
+        ]
+    },
+    "related_info_base_stations_lookup": {
+        "total_entries": 49954,
+        "unique_stations_in_file": 49954
+    }
+}
