@@ -1,0 +1,73 @@
+
+        digraph G {
+            splines=line;
+            nodesep=0.1;
+            ranksep=.2;
+            rankdir=TD;
+            margin=0.0;
+            
+            node [margin="0.03" penwidth="0.5" width=.1, height=.1];
+            edge [arrowsize=.4 penwidth="0.3"]
+
+            node2 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\25711\AppData\Local\Temp\node2_31492.svg"/></td>
+                    </tr>
+                    </table>>]
+	node1 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\25711\AppData\Local\Temp\node1_31492.svg"/></td>
+                    </tr>
+                    </table>>]
+	node0 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0">
+                    
+                    <tr>
+                            <td><img src="C:\Users\25711\AppData\Local\Temp\node0_31492.svg"/></td>
+                    </tr>
+                    </table>>]
+            node2 -> leaf4 [penwidth=1.2 fontname="simhei" color="#D67C03" label=<> fontcolor="#444443"]
+	node1 -> node2 [penwidth=1.2 fontname="simhei" color="#D67C03" label=<> fontcolor="#444443"]
+	node0 -> node1 [penwidth=1.2 fontname="simhei" color="#D67C03" label=<> fontcolor="#444443"]
+            leaf4 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0" CELLBORDER="0">
+                
+                <tr>
+                        <td><img src="C:\Users\25711\AppData\Local\Temp\leaf4_31492.svg"/></td>
+                </tr>
+                </table>>]
+
+            
+                    subgraph cluster_legend {
+                        style=invis;
+                        legend [penwidth="0" margin="0" shape=box margin="0.03" width=.1, height=.1 label=<
+                        
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td border="0" cellspacing="0" cellpadding="0"><img src="C:\Users\25711\AppData\Local\Temp\legend_31492.svg"/></td>
+                    </tr>
+                </table>
+                
+                        >]
+                    }
+                    
+            
+                    subgraph cluster_instance {
+                        style=invis;
+                        X_y [penwidth="0.3" margin="0" shape=box margin="0.03" width=.1, height=.1 label=<
+                        
+                        <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">酒精</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">苹果酸</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">灰</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">灰的碱性</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">镁</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">总酚</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#D67C03" point-size="11">类黄酮</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">非类黄酮类</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">花青素</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#D67C03" point-size="11">颜色强度</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">色调</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">od280/od315稀释葡萄酒</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#D67C03" point-size="11">脯氨酸</font></td>
+                        </tr>
+                        <tr>
+                            <td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">12.25</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">4.72</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">2.54</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">21.00</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">89.00</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">1.38</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#D67C03" point-size="11">0.47</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">0.53</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">0.80</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#D67C03" point-size="11">3.85</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">0.75</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#444443" point-size="11">1.27</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="simhei" color="#D67C03" point-size="11">720.00</font></td>
+                        </tr>
+                        </table>
+                        
+                        >]
+                    }
+                    leaf4 -> X_y [dir=back; penwidth="1.2" color="#D67C03" label=<<font face="simhei" color="#444443" point-size="11">  Prediction<br/> Class 2</font>>]
+                    
+        }
+            
