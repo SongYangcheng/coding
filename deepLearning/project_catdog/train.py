@@ -247,7 +247,7 @@ def main():
 
     batch_size = 64
     # Windows 下如果 num_workers > 0 经常报错或卡死，如果卡住请改为 0
-    num_workers = 4 if os.name != 'nt' else 0 
+    num_workers = 4
 
     train_loader = DataLoader(
         train_dataset,

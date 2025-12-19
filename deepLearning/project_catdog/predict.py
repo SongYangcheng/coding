@@ -47,37 +47,48 @@ class ImageClassifierApp(QMainWindow):
         try:
             self.model = AlexNet()
             self.model = self.model.float()
-            self.model.load_state_dict(torch.load('./logs/final_model.pth'))
+            self.model.load_state_dict(torch.load('./logs/best_model.pth'))
             self.model = self.model.to(self.device)
         except Exception as e:
             print(f'Model setup error:{str(e)}')
             raise
 
     def selectImage(self):
-        file_name,_ = QFileDialog.getOpenFileName(
-            self,'选择图片',"","图像文件( *. jpg *. jpeg *. png *. bmp)")
+            # 1. 【修正】去掉了后缀名前面的空格，确保能显示图片文件
+            file_name, _ = QFileDialog.getOpenFileName(
+                self, '选择图片', "", "图像文件 (*.jpg *.jpeg *.png *.bmp)")
 
-        if file_name:
-            try:
-                self.current_image = cv2.imread(file_name)
-                if self.current_image is not None:
-                    display_image = self.resizeImage(self.current_image.copy(),400)
-                    height,width,channel = display_image.shape
-                    bytes_per_line = 3 * width
-                    qt_image = QImage(
-                        display_image.data,width,height,bytes_per_line,
-                        QImage.Format_RGBA8888).rgbSwapped()
-                    self.image_label.setPixmap(QPixmap.fromImage(qt_image))
-                    # 启动预测按钮
-                    self.predict_button.setEnabled(True)  # 允许点击预测按钮
-                    # 清除之前的预测结果
-                    self.result_label.setText('图片已加载,点击“开始预测”进行预测')
-                    # 更新结果标签文本
-                else:
-                    self.result_label.setText('图片加载失败')  # 如果图像加载失败,更新结果标签文本
-            except Exception as e:
-                print(f"Image loading error: {str(e)}")  # 如果发生错误,打印错误信息
-                self.result_label.setText('图片加载出错')  # |
+            if file_name:
+                try:
+                    # 2. 【修正】解决中文路径读取失败的问题
+                    # cv2.imread 不支持中文路径，改用 np.fromfile + cv2.imdecode
+                    # self.current_image = cv2.imread(file_name)  <-- 原代码
+                    self.current_image = cv2.imdecode(np.fromfile(file_name, dtype=np.uint8), -1)
+
+                    if self.current_image is not None:
+                        # 注意：display_image 只用于显示，不要覆盖 self.current_image
+                        # 因为预测时需要用到原始的高清图
+                        display_image = self.resizeImage(self.current_image.copy(), 400)
+                        
+                        height, width, channel = display_image.shape
+                        bytes_per_line = 3 * width
+                        
+                        # OpenCV 读入是 BGR，PyQt 显示需要 RGB
+                        # 原代码使用了 .rgbSwapped()，这里也可以在转换前 cvtColor
+                        qt_image = QImage(
+                            display_image.data, width, height, bytes_per_line,
+                            QImage.Format_RGB888).rgbSwapped()
+                            
+                        self.image_label.setPixmap(QPixmap.fromImage(qt_image))
+                        
+                        # 启动预测按钮
+                        self.predict_button.setEnabled(True)
+                        self.result_label.setText('图片已加载, 点击“开始预测”进行预测')
+                    else:
+                        self.result_label.setText('图片读取失败（可能是格式损坏）')
+                except Exception as e:
+                    print(f"Image loading error: {str(e)}")
+                    self.result_label.setText(f'图片加载出错: {str(e)}')
 
     def resizeImage(self, image, target_size):
         h, w = image.shape[:2]
@@ -129,7 +140,7 @@ class ImageClassifierApp(QMainWindow):
 
                 # 显示预测结果和置信度
                 self.result_label.setText(
-                    f'预测结果:{result}\n置信度:{confidence_value :. 2f}%')  # 更新结果标签文本
+                    f'预测结果:{result}\n置信度:{confidence_value :.2f}%')  # 更新结果标签文本
             except Exception as e:
                 print(f'Prediction error:{str(e)}')
                 self.result_label.setText(f'预测出错：{str(e)}')
