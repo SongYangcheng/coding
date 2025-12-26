@@ -1,33 +1,27 @@
+import heapq
+n, k = list(map(int, input().split(" ")))
+arr = list(map(int, input().split(" ")))
+n = len(arr)
+if n == 0 or k <= 0:
+    print([])
 
-n, m = map(int, input().split(" "))
-lis = []
+prefix = [0] * (n + 1)
 for i in range(n):
-    lis.append(list(map(int, input().split(" "))))
-#按每列
-p_i = []
-for j in range(n):
-    num = 0
-    for i in range(m):
-        num += lis[i][j]
-    p_i.append(num)
-
-min_i = float("inf")
-for i in range(n-1):
-    x = p_i[i + 1] - p_i[i]
-    if min_i >= x:
-        min_i = x
-print(p_i)
-p_j = []
-for i in range(m):
-    num = 0
-    for j in range(n):
-        num += lis[i][j]
-    p_j.append(num)
-
-min_j = float("inf")
-for i in range(m-1):
-    x = p_j[i + 1] - p_j[i]
-    if min_j >= x:
-        min_j = x
-print(min(min_i, min_j))
-print(p_j)
+    prefix[i+1] = prefix[i] + arr[i]
+# print(prefix) 
+prefix.sort()
+min_heap = []
+for i in range(n):
+    diff = prefix[i+1] - prefix[i]
+    heapq.heappush(min_heap, (diff, i, i+1))
+print(min_heap)
+result = []
+for _ in range(k):
+    if not min_heap:
+        break
+    val, i, j = heapq.heappop(min_heap)
+    result.append(str(val))
+    if j + 1 < n + 1:
+        new_diff = prefix[j+1] - prefix[i]
+        heapq.heappush(min_heap, (new_diff, i, j+1))
+print(" ".join(result))
