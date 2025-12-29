@@ -3,3 +3,5 @@
 .vscode/
 *logs/
 *pth/
+*pth
+*__pycache__/
